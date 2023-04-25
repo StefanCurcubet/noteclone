@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/noteclone/static/css/main.f5dc83cc.css",
+    "main.js": "/noteclone/static/js/main.a3ef0d8f.js",
+    "index.html": "/noteclone/index.html",
+    "main.f5dc83cc.css.map": "/noteclone/static/css/main.f5dc83cc.css.map",
+    "main.a3ef0d8f.js.map": "/noteclone/static/js/main.a3ef0d8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5dc83cc.css",
+    "static/js/main.a3ef0d8f.js"
+  ]
+}
