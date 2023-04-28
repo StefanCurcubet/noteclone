@@ -1,6 +1,5 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
-import Navbar from "../Components/Navbar"
 
 export default function NewNotePage(){
     
@@ -24,7 +23,6 @@ export default function NewNotePage(){
 
     return (
         <>
-        <Navbar />
         <div className="container w-50 mt-3">
             <div className="text-center">
                 <h2>Create a new note</h2>

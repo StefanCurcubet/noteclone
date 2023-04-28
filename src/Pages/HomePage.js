@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import Note from "../Components/Note"
-import Navbar from "../Components/Navbar"
 
 export default function HomePage(){
 
@@ -10,7 +9,6 @@ export default function HomePage(){
         let response = await fetch("https://stefanc.pythonanywhere.com/notes/")
         let data = await response.json()
         updateNotes(data)
-        console.log("Got NOTES");
     }
 
     useEffect((() => {
@@ -20,11 +18,8 @@ export default function HomePage(){
     let allNotes = notes.map(note => <Note key={note.id} note={note} getNotes={getNotes}/>)
     
     return(
-        <>
-            <Navbar />
-            <div className="container">
-                {allNotes}
-            </div>
-        </>
+        <div className="container">
+            {allNotes}
+        </div>
     )
 }
